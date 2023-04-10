@@ -1,0 +1,74 @@
+.new-post-form {
+    width: 80%; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 2px grey;
+  }
+  
+  .new-post-form .row-1 input,
+  .new-post-form .row-2 input,
+  .new-post-form .row-3 input {
+    height: 30px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .new-post-form input:hover {
+    box-shadow: 1px 1px 5px green;
+  }
+  
+  .new-post-form input:focus {
+    box-shadow: 1px 1px 5px green;
+  }
+  
+  .new-post-form input::placeholder {
+    padding-left: 10px;
+  }
+  
+  .new-post-form .input-field {
+    margin-bottom: 15px;
+  }
+  
+  .new-post-form .input-field input[type="file"] {
+    border: 1px solid gray;
+    overflow: hidden;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .new-post-form .input-field.row-1{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .new-post-form .input-field.row-2 #description{
+    width: 100%;
+  }
+  
+  .new-post-form .input-field.row-3{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .new-post-form .input-field #post-btn {
+    font-weight: bold;
+    padding: 10px 50px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: green;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .new-post-form .input-field #post-btn:hover {
+    box-shadow: 2px 2px 5px black;
+  }
+  
